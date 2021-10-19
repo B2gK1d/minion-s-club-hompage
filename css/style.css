@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    background-color: #F63232;
+    z-index: 1;
+}
+header h1 {
+    display: inline-block;
+    color: white;
+    border: 8px solid white;
+    padding: 10px;
+    border-radius: 28px;
+}
+section.banner img {
+    max-width: 100%;
+    position: relative;
+}
+section div.welcome {
+    background-color: teal;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    font-size: 64px;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+section div.welcome span {
+    font-size: 1.3em;
+}
+nav {
+    background-color: #F4F4F4;
+    width: 100%;
+    white-space: nowrap;
+    position: sticky;
+    top: 108px;
+}
+nav ul {
+    text-align: center;
+    padding: 20px;
+}
+nav ul li {
+    display: inline-block;
+    width: 25%;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #4B4B4B;
+}
+nav ul li a.join {
+    color: #F63232;
+}
+main, main + div {
+    margin: 40px 80px;
+}
+main h2 {
+    font-size: 48px;
+    color: #F63232;
+}
+main p {
+    color: #4B4B4B;
+    text-indent: 20px;
+    line-height: 2em;
+}
+.images {
+    text-align: center;
+    margin: 80px 0;
+}
+.images li {
+    display: inline-block;
+    width: 40%;
+}
+.images li img {
+    width: 100%;
+    height: 300px;
+}
+section.join {
+    text-align: center;
+    padding: 40px;
+    color: #4B4B4B;
+    background-color: #F4F4F4;
+}
+section.join h2 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+section.join p {
+    font-size: 14px;
+}
+section.join form input {
+    margin: 20px 0;
+    padding: 10px 30px;
+    font-size: 24px;
+    border: white;
+    border-radius: 60px;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: #F63232;
+    font-size: 20px;
+    padding: 10px;
+}
